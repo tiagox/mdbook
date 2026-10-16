@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Book</title>
+    <style>
+        /* Reset margins and set up the page box model */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+        }
+
+        /* Horizontal Top Nav */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Main content expands to fill available vertical space */
+        main {
+            flex: 1;
+            padding: 2rem;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#main.md">Principal</a></li>
+            <li><a href="#intro.md">Introducción</a></li>
+            <li><a href="#refs.md">Referencias</a></li>
+        </ul>
+    </nav>
+    <main id="content"></main>
+
+    <script type="module">
+        import { marked } from 'https://cdn.jsdelivr.net/npm/marked/+esm';
+        import mathMarked from 'https://cdn.jsdelivr.net/npm/@webc.site/math-marked/+esm';
+
+        // marked.use({ gfm: true });
+        console.log(mathMarked);
+        marked.use(mathMarked());
+
+        function getPagePath(url) {
+            return new URL(url).hash.slice(1)
+        }
+
+        async function loadPage(mdPage) {
+            const response = await fetch(`./${mdPage}`);
+            const md = await response.text();
+            document.getElementById('content').innerHTML = marked.parse(md);
+        }
+
+        navigation.addEventListener('navigate', (event) => {
+            loadPage(getPagePath(event.destination.url));
+        });
+
+        navigation
+
+        loadPage(getPagePath(navigation.currentEntry.url) || 'main.md')
+    </script>
+</body>
+
+</html>
