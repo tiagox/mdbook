@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MD Book</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latex.css@1.13.0/style.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css"> -->
     <style>
         /* Reset margins and set up the page box model */
         * {
@@ -14,41 +16,42 @@
         }
 
         body {
-            font-family: sans-serif;
-            min-height: 100vh;
             display: flex;
+            gap: 1rem;
+            width: 100%;
+            max-width: unset;
+            padding: 2rem 1.25rem;
         }
 
-        /* Horizontal Top Nav */
         nav {
-            background-color: #333;
-            padding: 1rem;
+            padding-top: 5rem;
         }
 
         nav ul {
             list-style: none;
             display: flex;
             flex-direction: column;
-            gap: 1.5rem;
         }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /* Main content expands to fill available vertical space */
         main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             flex: 1;
-            padding: 2rem;
-            background-color: #f4f4f4;
+        }
+
+        main #content {
+            width: 100%;
+            max-width: 80ch;
         }
     </style>
 </head>
 
 <body>
     <nav id="toc"></nav>
-    <main id="content"></main>
+    <main>
+        <div id="content"></div>
+    </main>
 
     <script type="module">
         import { marked } from 'https://cdn.jsdelivr.net/npm/marked/+esm';
