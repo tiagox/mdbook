@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg73" viewBox="0 0 360 390">
+    <defs id="defs1">
+        <style id="style1">
+            .cell-light{fill:#e1f5ff}.cell-dark{fill:#4682b4}.queen-text{font-family:serif;font-size:24px;text-anchor:middle;dominant-baseline:central;fill:#1a1a2e}
+        </style>
+    </defs>
+    <rect id="rect1" width="100%" height="100%" rx="8" style="fill:#f0f2f5"/>
+    <text id="text1" x="180" y="25" style="font-family:ui-sans-serif,system-ui,sans-serif;font-size:18px;text-anchor:middle;fill:#333">Solución — 8 Reinas</text>
+    <path id="rect2" d="M20 40h40v40H20z" class="cell-light"/>
+    <path id="rect3" d="M60 40h40v40H60z" class="cell-dark"/>
+    <path id="rect4" d="M100 40h40v40h-40z" class="cell-light"/>
+    <path id="rect5" d="M140 40h40v40h-40z" class="cell-dark"/>
+    <path id="rect6" d="M180 40h40v40h-40z" class="cell-light"/>
+    <path id="rect7" d="M220 40h40v40h-40z" class="cell-dark"/>
+    <path id="rect8" d="M260 40h40v40h-40z" class="cell-light"/>
+    <path id="rect9" d="M300 40h40v40h-40z" class="cell-dark"/>
+    <path id="rect10" d="M20 80h40v40H20z" class="cell-dark"/>
+    <path id="rect11" d="M60 80h40v40H60z" class="cell-light"/>
+    <path id="rect12" d="M100 80h40v40h-40z" class="cell-dark"/>
+    <path id="rect13" d="M140 80h40v40h-40z" class="cell-light"/>
+    <path id="rect14" d="M180 80h40v40h-40z" class="cell-dark"/>
+    <path id="rect15" d="M220 80h40v40h-40z" class="cell-light"/>
+    <path id="rect16" d="M260 80h40v40h-40z" class="cell-dark"/>
+    <path id="rect17" d="M300 80h40v40h-40z" class="cell-light"/>
+    <path id="rect18" d="M20 120h40v40H20z" class="cell-light"/>
+    <path id="rect19" d="M60 120h40v40H60z" class="cell-dark"/>
+    <path id="rect20" d="M100 120h40v40h-40z" class="cell-light"/>
+    <path id="rect21" d="M140 120h40v40h-40z" class="cell-dark"/>
+    <path id="rect22" d="M180 120h40v40h-40z" class="cell-light"/>
+    <path id="rect23" d="M220 120h40v40h-40z" class="cell-dark"/>
+    <path id="rect24" d="M260 120h40v40h-40z" class="cell-light"/>
+    <path id="rect25" d="M300 120h40v40h-40z" class="cell-dark"/>
+    <path id="rect26" d="M20 160h40v40H20z" class="cell-dark"/>
+    <path id="rect27" d="M60 160h40v40H60z" class="cell-light"/>
+    <path id="rect28" d="M100 160h40v40h-40z" class="cell-dark"/>
+    <path id="rect29" d="M140 160h40v40h-40z" class="cell-light"/>
+    <path id="rect30" d="M180 160h40v40h-40z" class="cell-dark"/>
+    <path id="rect31" d="M220 160h40v40h-40z" class="cell-light"/>
+    <path id="rect32" d="M260 160h40v40h-40z" class="cell-dark"/>
+    <path id="rect33" d="M300 160h40v40h-40z" class="cell-light"/>
+    <path id="rect34" d="M20 200h40v40H20z" class="cell-light"/>
+    <path id="rect35" d="M60 200h40v40H60z" class="cell-dark"/>
+    <path id="rect36" d="M100 200h40v40h-40z" class="cell-light"/>
+    <path id="rect37" d="M140 200h40v40h-40z" class="cell-dark"/>
+    <path id="rect38" d="M180 200h40v40h-40z" class="cell-light"/>
+    <path id="rect39" d="M220 200h40v40h-40z" class="cell-dark"/>
+    <path id="rect40" d="M260 200h40v40h-40z" class="cell-light"/>
+    <path id="rect41" d="M300 200h40v40h-40z" class="cell-dark"/>
+    <path id="rect42" d="M20 240h40v40H20z" class="cell-dark"/>
+    <path id="rect43" d="M60 240h40v40H60z" class="cell-light"/>
+    <path id="rect44" d="M100 240h40v40h-40z" class="cell-dark"/>
+    <path id="rect45" d="M140 240h40v40h-40z" class="cell-light"/>
+    <path id="rect46" d="M180 240h40v40h-40z" class="cell-dark"/>
+    <path id="rect47" d="M220 240h40v40h-40z" class="cell-light"/>
+    <path id="rect48" d="M260 240h40v40h-40z" class="cell-dark"/>
+    <path id="rect49" d="M300 240h40v40h-40z" class="cell-light"/>
+    <path id="rect50" d="M20 280h40v40H20z" class="cell-light"/>
+    <path id="rect51" d="M60 280h40v40H60z" class="cell-dark"/>
+    <path id="rect52" d="M100 280h40v40h-40z" class="cell-light"/>
+    <path id="rect53" d="M140 280h40v40h-40z" class="cell-dark"/>
+    <path id="rect54" d="M180 280h40v40h-40z" class="cell-light"/>
+    <path id="rect55" d="M220 280h40v40h-40z" class="cell-dark"/>
+    <path id="rect56" d="M260 280h40v40h-40z" class="cell-light"/>
+    <path id="rect57" d="M300 280h40v40h-40z" class="cell-dark"/>
+    <path id="rect58" d="M20 320h40v40H20z" class="cell-dark"/>
+    <path id="rect59" d="M60 320h40v40H60z" class="cell-light"/>
+    <path id="rect60" d="M100 320h40v40h-40z" class="cell-dark"/>
+    <path id="rect61" d="M140 320h40v40h-40z" class="cell-light"/>
+    <path id="rect62" d="M180 320h40v40h-40z" class="cell-dark"/>
+    <path id="rect63" d="M220 320h40v40h-40z" class="cell-light"/>
+    <path id="rect64" d="M260 320h40v40h-40z" class="cell-dark"/>
+    <path id="rect65" d="M300 320h40v40h-40z" class="cell-light"/>
+    <path id="rect66" d="M20 40h320v320H20z" style="fill:none;stroke:#4682b4;stroke-width:2"/>
+    <text id="text66" x="200" y="60" class="queen-text">♛</text>
+    <text id="text67" x="120" y="100" class="queen-text">♛</text>
+    <text id="text68" x="40" y="140" class="queen-text">♛</text>
+    <text id="text69" x="280" y="180" class="queen-text">♛</text>
+    <text id="text70" x="80" y="220" class="queen-text">♛</text>
+    <text id="text71" x="320" y="260" class="queen-text">♛</text>
+    <text id="text72" x="240" y="300" class="queen-text">♛</text>
+    <text id="text73" x="160" y="340" class="queen-text">♛</text>
+</svg>

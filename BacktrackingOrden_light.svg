@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg27" viewBox="0 0 700 280">
+    <defs id="defs1">
+        <style id="style1">
+            .edge{stroke:#333;stroke-width:2;fill:none}.node{fill:#fff;stroke:#4682b4;stroke-width:2.5}.node-text{font-family:menlo,consola,&quot;DejaVu Sans Mono&quot;;font-size:16px;fill:#1a1a2e;text-anchor:middle;dominant-baseline:central;font-weight:700}.level-label{font-family:ui-sans-serif,system-ui,sans-serif;font-size:13px;fill:#666;text-anchor:middle}
+        </style>
+    </defs>
+    <rect id="rect1" width="100%" height="100%" x="0" y="0" rx="8" style="fill:#f0f2f5"/>
+    <text id="text1" x="350" y="22" style="font-family:ui-sans-serif,system-ui,sans-serif;font-size:18px;text-anchor:middle;fill:#333">Árbol de decisión — factor de ramificación 3</text>
+    <path id="line1" d="m350 66-195 68" class="edge"/>
+    <path id="line2" d="M350 66v68" class="edge"/>
+    <path id="line3" d="m350 66 195 68" class="edge"/>
+    <path id="line4" d="m155 166-70 68" class="edge"/>
+    <path id="line5" d="M155 166v68" class="edge"/>
+    <path id="line6" d="m155 166 70 68" class="edge"/>
+    <path id="line7" d="m350 166-70 68" class="edge"/>
+    <path id="line8" d="M350 166v68" class="edge"/>
+    <path id="line9" d="m350 166 70 68" class="edge"/>
+    <path id="line10" d="m545 166-70 68" class="edge"/>
+    <path id="line11" d="M545 166v68" class="edge"/>
+    <path id="line12" d="m545 166 70 68" class="edge"/>
+    <circle id="circle12" cx="350" cy="50" r="18" class="node"/>
+    <text id="text12" x="350" y="50" class="node-text">x₁</text>
+    <circle id="circle13" cx="155" cy="150" r="16" class="node"/>
+    <text id="text13" x="155" y="150" class="node-text" font-size="14">x₂</text>
+    <circle id="circle14" cx="350" cy="150" r="16" class="node"/>
+    <text id="text14" x="350" y="150" class="node-text" font-size="14">x₂</text>
+    <circle id="circle15" cx="545" cy="150" r="16" class="node"/>
+    <text id="text15" x="545" y="150" class="node-text" font-size="14">x₂</text>
+    <circle id="circle16" cx="85" cy="250" r="14" class="node"/>
+    <text id="text16" x="85" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle17" cx="155" cy="250" r="14" class="node"/>
+    <text id="text17" x="155" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle18" cx="225" cy="250" r="14" class="node"/>
+    <text id="text18" x="225" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle19" cx="280" cy="250" r="14" class="node"/>
+    <text id="text19" x="280" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle20" cx="350" cy="250" r="14" class="node"/>
+    <text id="text20" x="350" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle21" cx="420" cy="250" r="14" class="node"/>
+    <text id="text21" x="420" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle22" cx="475" cy="250" r="14" class="node"/>
+    <text id="text22" x="475" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle23" cx="545" cy="250" r="14" class="node"/>
+    <text id="text23" x="545" y="250" class="node-text" font-size="12">x₃</text>
+    <circle id="circle24" cx="615" cy="250" r="14" class="node"/>
+    <text id="text24" x="615" y="250" class="node-text" font-size="12">x₃</text>
+    <text id="text25" x="398.736" y="110.566" class="level-label">Nivel 0</text>
+    <text id="text26" x="44.784" y="169" class="level-label">Nivel 1</text>
+    <text id="text27" x="46.075" y="273.061" class="level-label">Nivel 2</text>
+</svg>

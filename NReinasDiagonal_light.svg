@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg97" viewBox="0 0 560 440">
+    <defs id="defs1">
+        <style id="style1">
+            .cell-light{fill:#e1f5ff}.cell-dark{fill:#4682b4}.col-label,.row-label{font-family:ui-sans-serif,system-ui,sans-serif;font-size:13px;fill:#333;text-anchor:middle;dominant-baseline:central}.diag-inv,.diag-main{fill:none;stroke:#4682b4;stroke-width:3.5}.diag-inv{stroke:#e9967a}.diag-label-inv,.diag-label-main{font-family:menlo,consola,&quot;DejaVu Sans Mono&quot;;font-size:12px;fill:#4682b4;font-weight:700}.diag-label-inv{fill:#e9967a}
+        </style>
+    </defs>
+    <rect id="rect1" width="100%" height="100%" x="759.895" y="76.99" rx="8" style="fill:#f0f2f5"/>
+    <text id="text1" x="297.413" y="27.887" style="font-family:ui-sans-serif,system-ui,sans-serif;font-size:18px;text-anchor:middle;fill:#333">Diagonales del tablero (N=8)</text>
+    <path id="rect2" d="M158.253 112.94h35v35h-35z" class="cell-light"/>
+    <path id="rect3" d="M193.253 112.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect4" d="M228.253 112.94h35v35h-35z" class="cell-light"/>
+    <path id="rect5" d="M263.253 112.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect6" d="M298.253 112.94h35v35h-35z" class="cell-light"/>
+    <path id="rect7" d="M333.253 112.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect8" d="M368.253 112.94h35v35h-35z" class="cell-light"/>
+    <path id="rect9" d="M403.253 112.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect10" d="M158.253 147.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect11" d="M193.253 147.94h35v35h-35z" class="cell-light"/>
+    <path id="rect12" d="M228.253 147.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect13" d="M263.253 147.94h35v35h-35z" class="cell-light"/>
+    <path id="rect14" d="M298.253 147.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect15" d="M333.253 147.94h35v35h-35z" class="cell-light"/>
+    <path id="rect16" d="M368.253 147.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect17" d="M403.253 147.94h35v35h-35z" class="cell-light"/>
+    <path id="rect18" d="M158.253 182.94h35v35h-35z" class="cell-light"/>
+    <path id="rect19" d="M193.253 182.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect20" d="M228.253 182.94h35v35h-35z" class="cell-light"/>
+    <path id="rect21" d="M263.253 182.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect22" d="M298.253 182.94h35v35h-35z" class="cell-light"/>
+    <path id="rect23" d="M333.253 182.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect24" d="M368.253 182.94h35v35h-35z" class="cell-light"/>
+    <path id="rect25" d="M403.253 182.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect26" d="M158.253 217.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect27" d="M193.253 217.94h35v35h-35z" class="cell-light"/>
+    <path id="rect28" d="M228.253 217.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect29" d="M263.253 217.94h35v35h-35z" class="cell-light"/>
+    <path id="rect30" d="M298.253 217.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect31" d="M333.253 217.94h35v35h-35z" class="cell-light"/>
+    <path id="rect32" d="M368.253 217.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect33" d="M403.253 217.94h35v35h-35z" class="cell-light"/>
+    <path id="rect34" d="M158.253 252.94h35v35h-35z" class="cell-light"/>
+    <path id="rect35" d="M193.253 252.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect36" d="M228.253 252.94h35v35h-35z" class="cell-light"/>
+    <path id="rect37" d="M263.253 252.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect38" d="M298.253 252.94h35v35h-35z" class="cell-light"/>
+    <path id="rect39" d="M333.253 252.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect40" d="M368.253 252.94h35v35h-35z" class="cell-light"/>
+    <path id="rect41" d="M403.253 252.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect42" d="M158.253 287.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect43" d="M193.253 287.94h35v35h-35z" class="cell-light"/>
+    <path id="rect44" d="M228.253 287.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect45" d="M263.253 287.94h35v35h-35z" class="cell-light"/>
+    <path id="rect46" d="M298.253 287.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect47" d="M333.253 287.94h35v35h-35z" class="cell-light"/>
+    <path id="rect48" d="M368.253 287.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect49" d="M403.253 287.94h35v35h-35z" class="cell-light"/>
+    <path id="rect50" d="M158.253 322.94h35v35h-35z" class="cell-light"/>
+    <path id="rect51" d="M193.253 322.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect52" d="M228.253 322.94h35v35h-35z" class="cell-light"/>
+    <path id="rect53" d="M263.253 322.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect54" d="M298.253 322.94h35v35h-35z" class="cell-light"/>
+    <path id="rect55" d="M333.253 322.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect56" d="M368.253 322.94h35v35h-35z" class="cell-light"/>
+    <path id="rect57" d="M403.253 322.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect58" d="M158.253 357.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect59" d="M193.253 357.94h35v35h-35z" class="cell-light"/>
+    <path id="rect60" d="M228.253 357.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect61" d="M263.253 357.94h35v35h-35z" class="cell-light"/>
+    <path id="rect62" d="M298.253 357.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect63" d="M333.253 357.94h35v35h-35z" class="cell-light"/>
+    <path id="rect64" d="M368.253 357.94h35v35h-35z" class="cell-dark"/>
+    <path id="rect65" d="M403.253 357.94h35v35h-35z" class="cell-light"/>
+    <path id="rect66" d="M158.253 112.94h280v280h-280z" style="fill:none;stroke:#333;stroke-width:1.5"/>
+    <text id="text66" x="175.753" y="100.94" class="col-label">0</text>
+    <text id="text67" x="210.753" y="100.94" class="col-label">1</text>
+    <text id="text68" x="245.753" y="100.94" class="col-label">2</text>
+    <text id="text69" x="280.753" y="100.94" class="col-label">3</text>
+    <text id="text70" x="315.753" y="100.94" class="col-label">4</text>
+    <text id="text71" x="350.753" y="100.94" class="col-label">5</text>
+    <text id="text72" x="385.753" y="100.94" class="col-label">6</text>
+    <text id="text73" x="420.753" y="100.94" class="col-label">7</text>
+    <text id="text74" x="143.253" y="130.44" class="row-label">0</text>
+    <text id="text75" x="143.253" y="165.44" class="row-label">1</text>
+    <text id="text76" x="143.253" y="200.44" class="row-label">2</text>
+    <text id="text77" x="143.253" y="235.44" class="row-label">3</text>
+    <text id="text78" x="143.253" y="270.44" class="row-label">4</text>
+    <text id="text79" x="143.253" y="305.44" class="row-label">5</text>
+    <text id="text80" x="143.253" y="340.44" class="row-label">6</text>
+    <text id="text81" x="143.253" y="375.44" class="row-label">7</text>
+    <path id="line81" d="m158.253 112.94 280 280" class="diag-main" style="stroke:#46b470;stroke-opacity:1;stroke-width:3;stroke-dasharray:none"/>
+    <path id="line82" d="M193.246 112.933 436.72 356.792" class="diag-main" style="stroke:#46b470;stroke-opacity:1;stroke-width:3;stroke-dasharray:none"/>
+    <path id="line83" d="m228.895 114.645 207.653 207.653" class="diag-main" style="stroke:#46b482;stroke-opacity:1;stroke-width:3;stroke-dasharray:none"/>
+    <path id="line84" d="M437.699 183.971 229.669 392.77" class="diag-inv" style="stroke-width:3.0055;stroke-dasharray:none"/>
+    <path id="line85" d="m437.352 149.318-242.721 242.72" class="diag-inv" style="stroke-width:3;stroke-dasharray:none"/>
+    <path id="line86" d="M436.734 114.074 158.233 390.651" class="diag-inv" style="stroke-width:3;stroke-dasharray:none"/>
+    <text id="text86" x="447.526" y="394.975" class="diag-label-main"><tspan id="tspan97" style="fill:#46b470;fill-opacity:1">f−c = 0</tspan></text>
+    <text id="text87" x="447.526" y="362.054" class="diag-label-main" style="fill:#46b470;fill-opacity:1">f−c = −1</text>
+    <text id="text90" x="505.323" y="327.516" class="diag-label-main" style="fill:#46b470;fill-opacity:1" text-anchor="end">f−c = -2</text>
+    <text id="text92" x="447.661" y="118.072" class="diag-label-inv">f+c = 7</text>
+    <text id="text94" x="447.526" y="184.669" class="diag-label-inv">f+c = 9</text>
+    <text id="text96" x="447.514" y="152.532" class="diag-label-inv">f+c = 8</text>
+</svg>
