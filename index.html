@@ -47,25 +47,24 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#main.md">Principal</a></li>
-            <li><a href="#intro.md">Introducción</a></li>
-            <li><a href="#refs.md">Referencias</a></li>
-        </ul>
-    </nav>
+    <nav id="toc"></nav>
     <main id="content"></main>
 
     <script type="module">
         import { marked } from 'https://cdn.jsdelivr.net/npm/marked/+esm';
         import mathMarked from 'https://cdn.jsdelivr.net/npm/@webc.site/math-marked/+esm';
 
-        // marked.use({ gfm: true });
-        console.log(mathMarked);
+        marked.use({ gfm: true });
         marked.use(mathMarked());
 
         function getPagePath(url) {
             return new URL(url).hash.slice(1)
+        }
+
+        async function loadToc() {
+            const response = await fetch(`./toc.md`);
+            const md = await response.text();
+            document.getElementById('toc').innerHTML = marked.parse(md);
         }
 
         async function loadPage(mdPage) {
@@ -74,13 +73,13 @@
             document.getElementById('content').innerHTML = marked.parse(md);
         }
 
+        loadToc();
+
         navigation.addEventListener('navigate', (event) => {
             loadPage(getPagePath(event.destination.url));
         });
 
-        navigation
-
-        loadPage(getPagePath(navigation.currentEntry.url) || 'main.md')
+        loadPage(getPagePath(navigation.currentEntry.url) || 'main.md');
     </script>
 </body>
 
