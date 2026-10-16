@@ -7,8 +7,6 @@
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src 'self' data:;">
     <title>MD Book</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latex.css@1.13.0/style.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css"> -->
     <style>
         /* Reset margins and set up the page box model */
         * {
@@ -20,12 +18,18 @@
         body {
             display: flex;
             gap: 1rem;
-            width: 100%;
+            width: 100vw;
+            height: 100vh;
             max-width: unset;
             padding: 2rem 1.25rem;
         }
 
         nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 0;
+            height: 100%;
             padding-top: 5rem;
         }
 
@@ -50,9 +54,14 @@
 </head>
 
 <body>
-    <nav id="toc"></nav>
+    <nav>
+        <div id="toc"></div>
+        <div>
+            <select id="themeSelector"></select>
+        </div>
+    </nav>
     <main>
-        <div id="content"></div>
+        <div id="content" class="latex"></div>
     </main>
 
     <script type="module">
@@ -85,6 +94,39 @@
         });
 
         loadPage(getPagePath(navigation.currentEntry.url) || 'main.md');
+
+        const themes = {
+            latex: { label: 'LaTeX', url: 'https://cdn.jsdelivr.net/npm/latex.css@1.13.0/style.min.css' },
+            tufle: { label: 'Tufle', url: 'https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css' },
+        };
+
+        let themeSelected = 'latex';
+        let removeLastLink = () => { }
+        function loadTheme() {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = themes[themeSelected].url;
+            removeLastLink();
+            document.head.prepend(link);
+            removeLastLink = () => {
+                link.remove();
+            };
+        }
+
+        const themeSelector = document.getElementById('themeSelector');
+        Object.entries(themes).forEach(([value, { label }]) => {
+            const option = document.createElement('option');
+            option.value = value;
+            option.text = label;
+            option.selected = themeSelected === value;
+            themeSelector.append(option);
+        })
+        themeSelector.addEventListener('change', (event) => {
+            themeSelected = event.target.value;
+            loadTheme();
+        })
+
+        loadTheme();
     </script>
 </body>
 
