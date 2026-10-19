@@ -112,7 +112,7 @@
             tufle: { label: 'Tufle', url: 'https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css' },
         };
 
-        let themeSelected = 'latex';
+        let themeSelected = window.localStorage?.getItem('theme') ?? 'latex';
         let removeLastLink = () => { }
         function loadTheme() {
             const link = document.createElement("link");
@@ -135,6 +135,7 @@
         })
         themeSelector.addEventListener('change', (event) => {
             themeSelected = event.target.value;
+            window.localStorage?.setItem('theme', themeSelected)
             loadTheme();
         })
 
