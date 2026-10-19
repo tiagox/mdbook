@@ -22,6 +22,7 @@
             height: 100vh;
             max-width: unset;
             padding: 2rem 1.25rem;
+            hyphens: auto;
         }
 
         nav {
@@ -45,6 +46,20 @@
         main #content {
             width: 100%;
             max-width: 80ch;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        pre {
+            width: max-content;
+            max-width: unset;
+            overflow: visible;
+        }
+        pre>code {
+            width: unset;
+            overflow: visible;
         }
     </style>
 </head>
